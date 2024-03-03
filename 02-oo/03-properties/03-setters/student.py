@@ -34,7 +34,7 @@ class Time:
     
     @seconds.setter
     def seconds(self, value):
-        if 0 <= value <= 23:
+        if 0 <= value <= 59:
             self.__seconds = value
         else:
-            raise ValueError('Invalid value for seconds')
+            raise ValueError('')
